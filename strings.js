@@ -11,7 +11,7 @@ console.log(substr);
 const food= "The quick fox jumped over the lazy dog";
 let foodToAdd = "eat";
 let indexPosition = 4;
- let newString = food.slice(0,indexPosition)+foodToAdd+ food.slice(indexPosition);
+ let newString = food.slice(0,indexPosition)+ foodToAdd+ food.slice(indexPosition);
 console.log(newString);
 
 
@@ -51,9 +51,6 @@ let y = "The pupils are reading in the library";
 console.log(y.indexOf('are'));
 let z = "The child was sitting on the table before it fell"
 console.log(z.indexOf('sitting'));
-
-
-
 
 
 
